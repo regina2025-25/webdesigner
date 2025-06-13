@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+  <title>Portfolio de Profesora de Inglés</title>
+</head>
+
+<body>
+  <!-- Menú de navegación -->
+  <nav class="navbar navbar-expand-lg text-bg-secondary">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
+        aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="#">Portfolio</a>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#hero">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#sobre_mi">Sobre mí</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#galeria">Galería</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#cards">Cards</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacto">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Sección de inicio -->
+  <section id="hero" class="container-fluid bg-primary-subtle">
+    <div class="row align-items-center">
+      <div class="col-sm-12 col-md-6">
+        <h1>Hola, soy Regina</h1>
+        <p>Soy profesora de inglés con 5 años de experiencia enseñando a niños, adolescentes y adultos. Mi pasión es enseñar de una manera divertida y dinámica, usando recursos interactivos y personalizados para cada grupo.</p>
+        <button type="button" class="btn btn-info">Más información</button>
+      </div>
+      <div class="col-sm-12 col-md-6">
+        <img src="img/pexels-artempodrez-8087857.jpg" class="img-fluid" alt="Imagen tuya o relacionada con tu trabajo">
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección Sobre mí -->
+  <section id="sobre_mi" class="container-fluid bg-secondary-subtle m-3">
+    <div class="row p-5">
+      <div class="col-sm-12 col-md-6">
+        <h1>Sobre mí</h1>
+        <p>Mi nombre es Regina. Me dedico a la enseñanza del inglés. Trabajo con grupos de diferentes edades y niveles, utilizando técnicas modernas y materiales visuales. Me encanta ver el progreso de mis estudiantes y adapto mis clases según las necesidades de cada uno.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección Galería -->
+<section id="galeria" class="container-fluid bg-tertiary-subtle">
+  <div class="row">
+    <div class="col-12">
+      <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="img/pexels-anastasia-shuraeva-8466704.jpg" class="d-block w-100" alt="Imagen del aula o actividad">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Clase interactiva</h5>
+              <p>Mi método de enseñanza incluye actividades prácticas y lúdicas.</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="img/pexels-ivan-samkov-5676738.jpg" class="d-block w-100" alt="Imagen de estudiantes">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Aprendiendo juntos</h5>
+              <p>Los estudiantes disfrutan y participan activamente en las clases.</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="img/pexels-ron-lach-10646410.jpg" class="d-block w-100" alt="Material educativo">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Materiales visuales</h5>
+              <p>Uso carteles, juegos, canciones y tecnología para facilitar el aprendizaje.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Sección Cards (para datos de contacto y experiencia) -->
+  <section id="cards" class="container-fluid m-3">
+    <div class="row">
+      <div class="col-6 col-md-4">
+        <div class="card">
+          <img src="img/pexels-jeshoots-com-147458-714698.jpg" class="card-img-top" alt="Imagen">
+          <div class="card-body">
+            <h5 class="card-title">Contacto</h5>
+            <p class="card-text">Puedes contactarme a través de email o WhatsApp para más información sobre mis clases.</p>
+            <a href="mailto:tuemail@example.com" class="btn btn-primary">Email</a>
+            <a href="https://wa.me/tu-numero" class="btn btn-success">WhatsApp</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Experiencia</h5>
+            <p class="card-text">He trabajado con niños, adolescentes y adultos, adaptando mis clases a las necesidades de cada grupo. Me especializo en clases dinámicas, con actividades visuales y digitales.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección de contacto -->
+  <section id="contacto" class="container-fluid">
+    <h2>Contacto</h2>
+    <form action="tu-enlace-de-formulario" method="post">
+      <div class="mb-3">
+        <label for="nombre" class="form-label">Tu nombre</label>
+        <input type="text" class="form-control" id="nombre" name="nombre" required>
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Correo electrónico</label>
+        <input type="email" class="form-control" id="email" name="email" required>
+      </div>
+      <div class="mb-3">
+        <label for="mensaje" class="form-label">Mensaje</label>
+        <textarea class="form-control" id="mensaje" name="mensaje" rows="3" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+  </section>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.min.js"
+    integrity="sha384-VQqxDN0EQCkWoxt/0vsQvZswzTHUVOImccYmSyhJTp7kGtPed0Qcx8rK9h9YEgx+"
+    crossorigin="anonymous"></script>
+
+
+    <footer class="bg-dark text-light py-4">
+      <div class="container text-center">
+        <p class="mb-1">© 2025 Regi J. Todos los derechos reservados.</p>
+        <div class="d-flex justify-content-center gap-3">
+          <a href="https://www.instagram.com/regij__" target="_blank" class="text-light text-decoration-none">
+            <i class="bi bi-instagram"></i> Instagram
+          </a>
+          <a href="mailto:regij@email.com" class="text-light text-decoration-none">
+            <i class="bi bi-envelope-fill"></i> Correo
+          </a>
+          <a href="#contacto" class="text-light text-decoration-none">
+            <i class="bi bi-chat-dots-fill"></i> Contacto
+          </a>
+        </div>
+      </div>
+    </footer>
+</body>
+
+</html>
+
